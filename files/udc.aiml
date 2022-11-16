@@ -2,6 +2,89 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>Hi, I am a chat bot designed to help identify jobs in the computing fields of which you are qualified for!
+    <reply>
+        <text>hard coding</text>
+        <postback>code</postback>
+    </reply>
+    
+    <reply>
+        <text> data managing or storage</text>
+        <postback>data</postback>
+    </reply>
+    
+    <reply>
+        <text>code testing</text>
+        <postback>plan</postback>
+    </reply>
+    
+    </template>
+    
   </category>
+  
+  <category>
+      <pattern>code</pattern>
+      <template> Which kind of coding would you say you enjoy the most?
+      <reply>
+        <text>web (HTML,CSS,XML , Javascript)</text>
+        <postback>frontend</postback>
+    </reply>
+    
+     <reply>
+        <text>hard-programming (C#,Javascript, Java, Python)</text>
+        <postback>backend</postback>
+    </reply>
+    
+    <reply>
+        <text>game-development (C++, Python)</text>
+        <postback>fullstack</postback>
+    </reply>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>frontend</pattern>
+      <template>Id say you should look into becoming a front end dev.</template>
+  </category>
+  
+  <category>
+      <pattern>fullstack</pattern>
+      <template>Id say you should look into becoming a game devloper.</template>
+  </category>
+  
+  <category>
+      <pattern>backend</pattern>
+      <template>Id say you should look into becoming a back end dev.</template>
+  </category>
+  
+ <category>
+      <pattern>plan</pattern>
+      <template>What field of CS would you say you would prefer working in?
+      <reply>
+        <text>back end </text>
+        <postback>backEnd</postback>
+    </reply>
+    
+    <reply>
+        <text>front end </text>
+        <postback>frontEnd</postback>
+    </reply>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>frontEnd</pattern>
+      <template>Id reccomend looking into becoming an application developer.</template>
+  </category>
+  
+  <category>
+      <pattern>backplan</pattern>
+      <template>Id recomend looking into becoming a code tester that sets up unit test codes for classes.</template>
+  </category>
+  
+  <category>
+      <pattern>data</pattern>
+      <template>Id reccomend looking into cloud/database management and storage positions.</template>
+  </category>
+  
 </aiml>
