@@ -9,6 +9,11 @@
     </reply>
     
     <reply>
+        <text> cyber protection,and implementing cybersecurity solutions</text>
+        <postback>cybersecurity</postback>
+    </reply>
+    
+    <reply>
         <text> data managing or storage</text>
         <postback>data</postback>
     </reply>
@@ -80,6 +85,11 @@
   <category>
       <pattern>backplan</pattern>
       <template>Id recomend looking into becoming a code tester that sets up unit test codes for classes.</template>
+  </category>
+  
+  <category>
+      <pattern>cybersecurity</pattern>
+      <template>Id reccomend becoming a cybersecurity analyst or ISSO.</template>
   </category>
   
   <category>
